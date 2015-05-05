@@ -1,0 +1,132 @@
+/**
+ * CMS Styles
+ */
+/**
+ * Include Compass framework
+ */
+@import "compass";
+
+/* full screen sidebar (pushes tabs to the left) */
+.rightsidebar {
+	width: 280px;
+	border-right: none;
+	border-left: 1px solid #C0C0C2;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+
+	.cms-panel-toggle a {
+		text-align: left;
+	}
+
+	~ .rightsidebar-outer {
+		width: 100%;
+		padding-right: 280px;
+		position: absolute;
+		height: 100%;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		box-sizing: border-box;
+
+		> .ss-tabset {
+			position: relative;
+			overflow: auto;
+			height: 100%;
+			width: 100%;
+
+			#Title {
+				label {
+					float: none;
+				}
+				.middleColumn, input {
+					width: 100%;
+					max-width: 100%;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+
+	.cms-content-view {
+		> .field {
+			+ .field {
+				margin-top: 10px;
+			}
+
+			&.urlsegment {
+				.preview {
+					padding-top: 0;
+					line-height: 25px;
+				}
+
+				.edit {
+					float: right;
+				}
+			}
+
+			&.datetime {
+				> .middleColumn {
+					> .date {
+						width: 60%;
+					}
+
+					> .time {
+						width: 36%;
+						float: right;
+					}
+
+					.middleColumn, input {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	&.collapsed {
+		~ .rightsidebar-outer {
+			padding-right: 41px;
+		}
+	}
+
+	&.cms-content-tools {
+		.cms-panel-content {
+			width: auto;
+		}
+	}
+}
+
+/* in-tab sidebar */
+.rightsidebar-inner .rightsidebar-leftcol {
+	padding-right: 280px;
+	
+	.rightsidebar {
+		width: 286px;
+		border-right: none;
+		background: none;
+		border-left: 1px solid #d0d3d5;
+		position: absolute;
+		height: auto;
+		min-height: 100%;
+		box-shadow: none;
+		top: 77px;
+		right: 0px;
+		
+		.cms-panel-content {
+			padding: 0 14px 14px 14px;
+			//border-left: 1px solid #d0d3d5;
+		}
+		
+		h3.cms-panel-header {
+			padding-bottom: 10px;
+		}
+		
+		.cms-panel-content-collapsed, .cms-panel-toggle.south { display: none; }
+	}
+}
+
+.cms-content-actions,
+.cms-preview-controls {
+	z-index: 999;
+}

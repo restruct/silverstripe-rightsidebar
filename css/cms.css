@@ -1,0 +1,99 @@
+/**
+ * CMS Styles
+ */
+/**
+ * Include Compass framework
+ */
+/* full screen sidebar (pushes tabs to the left) */
+.rightsidebar {
+  width: 280px;
+  border-right: none;
+  border-left: 1px solid #C0C0C2;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+}
+.rightsidebar .cms-panel-toggle a {
+  text-align: left;
+}
+.rightsidebar ~ .rightsidebar-outer {
+  width: 100%;
+  padding-right: 280px;
+  position: absolute;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.rightsidebar ~ .rightsidebar-outer > .ss-tabset {
+  position: relative;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+.rightsidebar ~ .rightsidebar-outer > .ss-tabset #Title label {
+  float: none;
+}
+.rightsidebar ~ .rightsidebar-outer > .ss-tabset #Title .middleColumn, .rightsidebar ~ .rightsidebar-outer > .ss-tabset #Title input {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+}
+.rightsidebar .cms-content-view > .field + .field {
+  margin-top: 10px;
+}
+.rightsidebar .cms-content-view > .field.urlsegment .preview {
+  padding-top: 0;
+  line-height: 25px;
+}
+.rightsidebar .cms-content-view > .field.urlsegment .edit {
+  float: right;
+}
+.rightsidebar .cms-content-view > .field.datetime > .middleColumn > .date {
+  width: 60%;
+}
+.rightsidebar .cms-content-view > .field.datetime > .middleColumn > .time {
+  width: 36%;
+  float: right;
+}
+.rightsidebar .cms-content-view > .field.datetime > .middleColumn .middleColumn, .rightsidebar .cms-content-view > .field.datetime > .middleColumn input {
+  width: 100%;
+}
+.rightsidebar.collapsed ~ .rightsidebar-outer {
+  padding-right: 41px;
+}
+.rightsidebar.cms-content-tools .cms-panel-content {
+  width: auto;
+}
+
+/* in-tab sidebar */
+.rightsidebar-inner .rightsidebar-leftcol {
+  padding-right: 280px;
+}
+.rightsidebar-inner .rightsidebar-leftcol .rightsidebar {
+  width: 286px;
+  border-right: none;
+  background: none;
+  border-left: 1px solid #d0d3d5;
+  position: absolute;
+  height: auto;
+  min-height: 100%;
+  box-shadow: none;
+  top: 77px;
+  right: 0px;
+}
+.rightsidebar-inner .rightsidebar-leftcol .rightsidebar .cms-panel-content {
+  padding: 0 14px 14px 14px;
+}
+.rightsidebar-inner .rightsidebar-leftcol .rightsidebar h3.cms-panel-header {
+  padding-bottom: 10px;
+}
+.rightsidebar-inner .rightsidebar-leftcol .rightsidebar .cms-panel-content-collapsed, .rightsidebar-inner .rightsidebar-leftcol .rightsidebar .cms-panel-toggle.south {
+  display: none;
+}
+
+.cms-content-actions,
+.cms-preview-controls {
+  z-index: 999;
+}
