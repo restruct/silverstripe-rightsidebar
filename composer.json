@@ -1,0 +1,20 @@
+{
+	"name": "micschk/silverstripe-rightsidebar",
+	"description": "Allows adding a right-hand sidebar in the CMS to hold options/fields for the currently edited record",
+	"keywords": [
+		"silverstripe"
+	],
+	"type": "silverstripe-module",
+	"require": {
+		"silverstripe/cms": ">=3.1.0"
+	},
+	"license": "BSD-2-Clause",
+	"authors": [
+		{
+			"name": "micschk"
+		}
+	],
+	"extra": {
+		"installer-name": "rightsidebar"
+	}
+}
