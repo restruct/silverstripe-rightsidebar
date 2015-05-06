@@ -1,5 +1,4 @@
 <div class="cms-content-tools east cms-panel cms-panel-layout rightsidebar<% if $isOpen %> open<% end_if %>"
-
      id="rightsidebar">
     <div class="cms-panel-content center">
         <div class="cms-content-view cms-tree-view-sidebar" id="rightsidebar-content">
