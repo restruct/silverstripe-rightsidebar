@@ -12,12 +12,23 @@
 			$FieldHolder
 		</div>
 		<% else %>
-			<div $AttributesHTML huh>
-				<div class="rightsidebar-leftcol">
+			<div $AttributesHTML>
+				<!-- only include holder if tab contains a rightsidebar -->
+				<% loop $Fields %>
+					<% if $Type=='rightsidebar' %>
+					<div class="$Type-leftcol">
+					<% end_if %>
+				<% end_loop %>
+				<!-- loop over fields -->
 				<% loop $Fields %>
 					$FieldHolder
 				<% end_loop %>
-				</div>
+				<!-- only include holder if tab contains a rightsidebar -->
+				<% loop $Fields %>
+					<% if $Type=='rightsidebar' %>
+					</div>
+					<% end_if %>
+				<% end_loop %>
 			</div>
 		<% end_if %>
 	<% end_loop %>
