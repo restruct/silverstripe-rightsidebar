@@ -60,6 +60,9 @@
 .rightsidebar .cms-content-view > .field.datetime > .middleColumn .middleColumn, .rightsidebar .cms-content-view > .field.datetime > .middleColumn input {
   width: 100%;
 }
+.rightsidebar .cms-content-view > .field label.right {
+  margin: 4px 0 0 2px;
+}
 .rightsidebar.collapsed ~ .rightsidebar-outer {
   padding-right: 41px;
 }
