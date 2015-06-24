@@ -13,7 +13,7 @@
 				// only set cms-panel collapse/expand if direct child of fieldset (not when inside tab)
 				if(this.parent('fieldset').length){
 					this._super();
-					console.log('setting');
+					//console.log('setting');
 				}
 				this.updateLayout();
 				
