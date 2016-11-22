@@ -14,6 +14,12 @@
   top: 0px;
   height: 100%;
 }
+ .rightsidebar .cms-panel-toggle.south{
+   margin-left: 12px;
+ }
+.rightsidebar.collapsed{
+  width: auto;
+}
 .rightsidebar .cms-panel-toggle a {
   text-align: left;
 }
