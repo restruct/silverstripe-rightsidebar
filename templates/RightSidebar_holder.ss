@@ -11,7 +11,7 @@
     <div class="cms-panel-content-collapsed">
         <h3 class="cms-panel-header">$Title</h3>
     </div>
-    <div class="cms-panel-toggle south">
+    <div class="cms-panel-toggle south cms-content-tools">
         <a class="toggle-expand" href="#"><span>&laquo;</span></a>
         <a class="toggle-collapse" href="#"><span>&raquo;</span></a>
     </div>
