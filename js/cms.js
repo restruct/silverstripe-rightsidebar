@@ -4,11 +4,11 @@
 
 		/**
 		 * Customise the cms-panel behaviour for right sidebar
-		 * 
+		 *
 		 * see LeftAndMain.Panel.js for base behaviour
 		 */
 		$('.rightsidebar').entwine({
-			MinInnerWidth: 620,
+			MinInnerWidth: 1020,
 			onadd: function() {
 				// only set cms-panel collapse/expand if direct child of fieldset (not when inside tab)
 				if(this.parent('fieldset').length){
@@ -16,10 +16,10 @@
 					//console.log('setting');
 				}
 				this.updateLayout();
-				
+
 				// If this panel is open and the left hand column is smaller than the minimum, contract it instead
-				if(!this.hasClass('collapsed') && ($(".rightsidebar-outer").width() < this.getMinInnerWidth())) {
-					//this.collapsePanel();
+				if(!this.hasClass('collapsed') && ($("#Root").width() < this.getMinInnerWidth())) {
+					this.togglePanel();
 				}
 			},
 			togglePanel: function(bool, silent) {
@@ -28,7 +28,7 @@
 			},
 			/**
 			 * Adjust minimum width of content to account for extra panel
-			 * 
+			 *
 			 * @returns {undefined}
 			 */
 			updateLayout: function() {
