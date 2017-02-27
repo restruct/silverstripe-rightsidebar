@@ -8,17 +8,11 @@
 .rightsidebar {
   width: 280px;
   border-right: none;
-  border-left: 1px solid #C0C0C2;
+  border-left: 1px solid #c1c7cc;
   position: absolute;
   right: 0px;
   top: 0px;
   height: 100%;
-}
- .rightsidebar .cms-panel-toggle.south{
-   margin-left: 12px;
- }
-.rightsidebar.collapsed{
-  width: auto;
 }
 .rightsidebar .cms-panel-toggle a {
   text-align: left;
@@ -83,8 +77,7 @@
 .rightsidebar-inner .rightsidebar-leftcol .rightsidebar {
   width: 286px;
   border-right: none;
-  background: #e6eaed;
-  border-left: 1px solid #d0d3d5;
+  border-left: 1px solid #c1c7cc;
   position: absolute;
   height: auto;
   min-height: 100%;
