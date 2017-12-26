@@ -12,8 +12,23 @@
   position: absolute;
   right: 0px;
   top: 0px;
-  height: 100%;
+  height: 100%!important;
+  background-color: #f7f8fa;
 }
+
+.CompositeField.rightsidebar .form__fieldgroup {
+    bottom: auto!important;
+    height: 100%!important;
+    padding: 0 !important;
+    margin: 0!important;
+    padding-left: 30px!important;
+    width: auto!important;
+    max-width: 100%!important;
+    flex: 0 0 0!important;
+    padding-top: 30px!important;
+    border-left: none;
+}
+
 .rightsidebar .cms-panel-toggle a {
   text-align: left;
 }
