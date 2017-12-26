@@ -6,7 +6,7 @@
 	],
 	"type": "silverstripe-module",
 	"require": {
-		"silverstripe/cms": ">=3.1.0"
+		"silverstripe/cms": "^3.1.0"
 	},
 	"license": "BSD-2-Clause",
 	"authors": [
