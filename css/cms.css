@@ -14,6 +14,7 @@
   top: 0px;
   height: 100%!important;
   background-color: #f7f8fa;
+  display: block!important;
 }
 
 .CompositeField.rightsidebar .form__fieldgroup {
