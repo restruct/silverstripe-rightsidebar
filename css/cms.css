@@ -87,6 +87,9 @@
 .rightsidebar.cms-content-tools .cms-panel-content {
   width: auto;
 }
+.rightsidebar + .form-group {
+	margin-right: 260px;
+}
 
 /* in-tab sidebar */
 .rightsidebar-inner .rightsidebar-leftcol {
