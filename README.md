@@ -27,13 +27,3 @@ Usage (in getCMSfields):
 	$fields->fieldByName('Root')->setTemplate('RightSidebar');
 
 ```
-
-## Screenshots
-
-*Inside a tab (fixed-width/non-collapsible)*
-![](images/screenshots/inner.png)
-
-
-*Full screen (collapsible/expandable)*
-![](images/screenshots/outer-expanded.png)
-![](images/screenshots/outer-collapsed.png)
