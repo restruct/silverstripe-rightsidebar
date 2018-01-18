@@ -1,6 +1,10 @@
-Silverstripe CMS Right Sidebar
-==============================
+# Silverstripe CMS Right Sidebar
+* This fork is under development*
 
+## Requirements
+- SilverStripe CMS & Framework 4+
+
+## Overview
 Allows adding a right-hand sidebar in the CMS to hold options/fields for the currently edited record. Abstracted out from the Silverstripe Blog module for use on other pages as well (blog module by ao. Michael Strong/Silverstripe)
 
 RightSidebar behaves like a tab (like tab it extends CompositeField). 
