@@ -3,8 +3,9 @@
     "description": "Allows adding a right-hand sidebar in the CMS to hold options/fields for the currently edited record",
     "type": "silverstripe-vendormodule",
     "minimum-stability": "dev",
-    "keywords": ["silverstripe"],
-		"license": "BSD-2-Clause",
+    "prefer-stable": "true",
+    "keywords": ["silverstripe", "silverstripe 4", "right sidebar"],
+	"license": "BSD-2-Clause",
     "require": {
         "silverstripe/cms": "~4.0",
         "silverstripe/framework": "~4.0",
@@ -16,12 +17,12 @@
         }
     },
     "extra": {
-			"branch-alias": {
-	      	"dev-master": "2.x-dev"
-	    },
-      "expose": [
-          "css",
-          "js"
-      ]
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "expose": [
+            "css",
+            "js"
+        ]
     }
 }
