@@ -1,5 +1,5 @@
 # Silverstripe CMS Right Sidebar
-* This fork is under development*
+*This fork is under development*
 
 ## Requirements
 - SilverStripe CMS & Framework 4+
