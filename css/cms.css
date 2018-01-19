@@ -87,24 +87,13 @@
 .rightsidebar.cms-content-tools .cms-panel-content {
   width: auto;
 }
-.rightsidebar + .form-group {
-	margin-right: 260px;
-}
 
 /* in-tab sidebar */
 .rightsidebar-inner .rightsidebar-leftcol {
   padding-right: 280px;
 }
 .rightsidebar-inner .rightsidebar-leftcol .rightsidebar {
-  width: 286px;
-  border-right: none;
-  border-left: 1px solid #c1c7cc;
-  position: absolute;
-  height: auto;
-  min-height: 100%;
-  box-shadow: none;
-  top: 77px;
-  right: 0px;
+  top: 52px;
 }
 .rightsidebar-inner .rightsidebar-leftcol .rightsidebar .cms-panel-content {
   padding: 0 14px 14px 14px;
