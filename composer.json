@@ -1,10 +1,11 @@
 {
-    "name": "micschk/rightsidebar",
+    "name": "restruct/rightsidebar",
     "description": "Allows adding a right-hand sidebar in the CMS to hold options/fields for the currently edited record",
     "type": "silverstripe-vendormodule",
-    "minimum-stability": "dev",
-    "prefer-stable": "true",
-    "keywords": ["silverstripe", "silverstripe 4", "right sidebar"],
+    "authors": [{
+		"name": "Restruct",
+		"email": "dev@restruct.nl"
+	}],
 	"license": "BSD-2-Clause",
     "require": {
         "silverstripe/cms": "~4.0",
